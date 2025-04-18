@@ -16,7 +16,7 @@
                 <input type="text" id="cityInput" class="form-control" placeholder="Enter city name">
                 <button class="btn btn-primary" onclick="getWeather()">Search</button>
             </div>
-            <button class="btn btn-secondary mb-3">Use My Location</button>
+            <button class="btn btn-secondary mb-3" onclick="getLocation()">Use My Location</button>
 
             <div id="weatherResult" class="mt-4">
                 <h3 id="cityName"></h3>
@@ -30,7 +30,7 @@
 
             <div id="forecast" class="mt-4"></div>
 
-            <button class="btn btn-dark mt-3">Toggle Dark Mode</button>
+            <button class="btn btn-dark mt-3" onclick="toggleDarkMode()">Toggle Dark Mode</button>
         </div>
     </div>
 
